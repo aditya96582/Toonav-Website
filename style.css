@@ -33,6 +33,7 @@ body {
     align-items: center;
     z-index: 9999;
     transition: opacity 0.5s ease;
+    padding: 40px 20px;
 }
 
 #loading-screen h1 {
@@ -40,6 +41,7 @@ body {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 0;
     background: linear-gradient(90deg, #00F5FF, #00FFA3, #FF00E0, #FFD700, #00F5FF);
     background-size: 300% auto;
     -webkit-background-clip: text;
@@ -125,6 +127,7 @@ body {
 .loading-text {
     display: flex;
     gap: 5px;
+    margin-top: 0;
 }
 
 .loading-text span {
@@ -833,8 +836,8 @@ nav {
 
 /* --- RESPONSIVE DESIGN --- */
 @media (max-width: 768px) {
-    .main-title { font-size: clamp(2rem, 10vw, 8rem); }
-    .subtitle { font-size: clamp(0.8rem, 3vw, 1.2rem); }
+    .main-title { font-size: clamp(2rem, 10vw, 8rem); letter-spacing: 2px; margin-bottom: 20px; }
+    .subtitle { font-size: clamp(0.8rem, 3vw, 1.2rem); letter-spacing: 2px; margin-top: 10px; }
     .vine-decoration { width: 300px; height: 300px; }
     .countdown { gap: 10px; flex-wrap: wrap; }
     .time-val { font-size: clamp(1.2rem, 5vw, 2.5rem); min-width: 60px; }
