@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOONAV 2026 | Techno-Cultural Fest</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loading-screen">
+        <img src="Images/Toonav Welcome.png" alt="Welcome" class="welcome-img">
+        <h1 id="welcome-text">Welcome to GL Bajaj Group of Institutions, Mathura</h1>
+        <h2 id="toonav-text">For Toonav 2026</h2>
+        <div class="loader"></div>
+    </div>
+
+    <video id="bg-video" autoplay muted loop>
+        <source src="Images/Toon video.mp4" type="video/mp4">
+    </video>
+    <div class="background-glow"></div>
+
+    <nav>
+        <a href="#about" class="nav-logo">
+            <img src="Images/Screenshot 2026-02-19 014512.png" alt="Toonav Logo">
+        </a>
+        
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#events">Events</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#inspiration">Our Inspirations</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="vine-decoration"></div>
+
+        <h1 class="main-title floating">TOONAV</h1>
+        <p class="subtitle floating">ANNUAL TECHNO-CULTURAL FEST</p>
+        
+        <button class="cta-btn" onclick="window.open('https://forms.gle/Vx1d83v9TfqDooEGA', '_blank')">Register Now</button>
+
+        <div class="countdown">
+            <div class="time-box">
+                <div class="time-val" id="days">00</div>
+                <div class="time-label">DAYS</div>
+            </div>
+            <div class="time-box">
+                <div class="time-val" id="hours">00</div>
+                <div class="time-label">HOURS</div>
+            </div>
+            <div class="time-box">
+                <div class="time-val" id="minutes">00</div>
+                <div class="time-label">MINS</div>
+            </div>
+            <div class="time-box">
+                <div class="time-val" id="seconds">00</div>
+                <div class="time-label">SECS</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title galaxy-heading">About TOONAV</h2>
+        <div class="about-content">
+            <p>TOONAV is the annual techno-cultural fest of GL Bajaj Group of Institutions, Mathura. It brings together students from across the region to showcase their talents in technical, cultural, literary, and sports events. Join us for an unforgettable experience of innovation, creativity, and celebration.</p>
+            <p>We bring together brands and college students to create unforgettable experiences. Our varied range of events will give an exposure to the student fraternity to explore their talent and get rewarded just for being students, while the vendors &amp; brands are able to market effectively to thousands of college students. Our goal is to create unique experiences for both students and vendors. The different activities in this fest will provide the participants to unleash their talent to a large group of audience and will make their spirits high and rejuvenating and will be an unforgettable experience for all. The fest will provide them with various opportunities that will help towards their overall development and give them a great exposure and make them learn to collaborate, organize work in teams and go for out of the box solutions.</p>
+        </div>
+    </section>
+
+    <section id="events" class="events">
+        <h2 class="section-title galaxy-heading">Events</h2>
+        <div class="events-grid">
+            <a href="https://forms.gle/Vx1d83v9TfqDooEGA" class="event-card" target="_blank">
+                <img src="Images/Cultral.jpeg" alt="Cultural">
+                <h3 class="galaxy-heading">Cultural</h3>
+                <p>Dance, Music, Drama & Fashion Shows</p>
+            </a>
+            <a href="https://forms.gle/Vx1d83v9TfqDooEGA" class="event-card" target="_blank">
+                <img src="Images/Management.jpeg" alt="Management">
+                <h3 class="galaxy-heading">Management</h3>
+                <p>Business Plans, Case Studies & Marketing</p>
+            </a>
+            <a href="https://forms.gle/Vx1d83v9TfqDooEGA" class="event-card" target="_blank">
+                <img src="Images/Technical.jpeg" alt="Technical">
+                <h3 class="galaxy-heading">Technical</h3>
+                <p>Coding, Robotics & Tech Competitions</p>
+            </a>
+            <a href="https://forms.gle/Vx1d83v9TfqDooEGA" class="event-card" target="_blank">
+                <img src="Images/Literary.jpeg" alt="Literary">
+                <h3 class="galaxy-heading">Literary</h3>
+                <p>Debates, Poetry, Writing & Quiz</p>
+            </a>
+            <a href="https://forms.gle/Vx1d83v9TfqDooEGA" class="event-card" target="_blank">
+                <img src="Images/Art.jpeg" alt="Art and Craft">
+                <h3 class="galaxy-heading">Art and Craft</h3>
+                <p>Painting, Sculpture & Creative Arts</p>
+            </a>
+            <a href="https://forms.gle/Vx1d83v9TfqDooEGA" class="event-card" target="_blank">
+                <img src="Images/Sports.jpeg" alt="Sports">
+                <h3 class="galaxy-heading">Sports</h3>
+                <p>Athletics, Games & Tournaments</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2 class="section-title galaxy-heading">Gallery</h2>
+        <div class="container">
+            <span style="--i:1"><img src="Images/Prince.jpeg" alt="Gallery 1"></span>
+            <span style="--i:2"><img src="Images/Toon 2.jpeg" alt="Gallery 2"></span>
+            <span style="--i:3"><img src="Images/Toon 6.jpeg" alt="Gallery 3"></span>
+            <span style="--i:4"><img src="Images/Toon 11.jpeg" alt="Gallery 4"></span>
+            <span style="--i:5"><img src="Images/Toon 14.jpeg" alt="Gallery 5"></span>
+            <span style="--i:6"><img src="Images/Garima.jpeg" alt="Gallery 6"></span>
+            <span style="--i:7"><img src="Images/Toonav Bg .jpeg" alt="Gallery 7"></span>
+            <span style="--i:8"><img src="Images/Toon 7.jpeg" alt="Gallery 8"></span>
+        </div>
+    </section>
+
+    <section id="inspiration" class="team">
+        <h2 class="section-title galaxy-heading">Our Inspirations</h2>
+        <div class="team-grid">
+            <div class="team-card">
+                <img src="Images/Director Maam.jpeg" alt="Director">
+                <h3>PROFESSOR Neeta Awasthy</h3>
+                <p>Director</p>
+            </div>
+            <div class="team-card">
+                <img src="Images/CEO.jpeg" alt="CEO">
+                <h3>Mr. Kartikay Agarwal</h3>
+                <p>CEO</p>
+            </div>
+            <div class="team-card">
+                <img src="Images/Pankaj Sir .jpeg" alt="Vice President">
+                <h3>Mr. Pankaj Agarwal</h3>
+                <p>Vice President</p>
+            </div>
+            <div class="team-card">
+                <img src="Images/Chairman.jpeg" alt="Chairman">
+                <h3>Dr. R. K. Agrawal</h3>
+                <p>Chairman</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="Images/Screenshot 2026-02-18 152708.png" alt="Footer Logo" class="footer-logo">
+        </div>
+        
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>TOONAV 2025-26</h3>
+                <p>Annual Techno-Cultural Fest of GL Bajaj Group of Institutions, Mathura. Celebrating Innovation, Creativity & Talent.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="https://forms.gle/Vx1d83v9TfqDooEGA" target="_blank">Registration</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#inspiration">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Event Info</h3>
+                <p>📍 GL Bajaj Group of Institutions, Mathura</p>
+                <p>📅 February 2026</p>
+                <p>⏰ 10:00 AM onwards</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <p>📧 toonav@glbajaj.com</p>
+                <p>📞 +91 XXXXX XXXXX</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/glbajajmathura?igsh=MTJsdXgwZjY0NmRzbQ==" target="_blank">Instagram</a>
+                    <a href="https://www.linkedin.com/school/official-glbajaj/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="footer-section qr-section">
+                <img src="Images/Screenshot 2026-02-19 015329.png" alt="QR Code" class="qr-code">
+                <p>Scan here to register</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 TOONAV | GL Bajaj Group of Institutions, Mathura
+            <a href="#home" class="scroll-to-top">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+        <svg viewBox="0 0 32 32" width="32" height="32">
+            <path fill="white" d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-5.247 1.408 1.417-5.267-0.315-0.517c-1.318-2.165-2.012-4.66-2.012-7.262 0-7.452 6.063-13.515 13.515-13.515s13.515 6.063 13.515 13.515-6.063 13.515-13.515 13.515zM21.507 18.277c-0.295-0.148-1.747-0.863-2.017-0.961-0.27-0.099-0.467-0.148-0.663 0.148s-0.762 0.961-0.934 1.157c-0.172 0.197-0.344 0.222-0.639 0.074s-1.246-0.459-2.372-1.463c-0.877-0.782-1.47-1.748-1.642-2.043s-0.018-0.455 0.13-0.602c0.133-0.133 0.295-0.344 0.442-0.517s0.197-0.295 0.295-0.492c0.099-0.197 0.049-0.369-0.025-0.517s-0.663-1.596-0.909-2.186c-0.238-0.573-0.479-0.495-0.663-0.504-0.172-0.008-0.369-0.010-0.565-0.010s-0.517 0.074-0.787 0.369c-0.27 0.295-1.031 1.008-1.031 2.457s1.056 2.851 1.203 3.047c0.148 0.197 2.084 3.181 5.049 4.461 0.705 0.305 1.256 0.486 1.685 0.622 0.708 0.225 1.352 0.193 1.861 0.117 0.568-0.085 1.747-0.714 1.993-1.404s0.246-1.281 0.172-1.404c-0.074-0.123-0.27-0.197-0.565-0.344z"/>
+        </svg>
+    </a>
+
+    <script>
+        function animateText(element) {
+            const text = element.innerText;
+            element.innerHTML = "";
+            text.split("").forEach((char, index) => {
+                const span = document.createElement("span");
+                span.innerText = char === " " ? "\u00A0" : char;
+                span.style.animationDelay = index * 0.05 + "s";
+                element.appendChild(span);
+            });
+        }
+        document.querySelectorAll("#welcome-text, #toonav-text").forEach(animateText);
+
+        function floatText(element) {
+            const text = element.innerText;
+            element.innerHTML = "";
+            text.split("").forEach((char, i) => {
+                const span = document.createElement("span");
+                span.innerText = char === " " ? "\u00A0" : char;
+                span.style.animationDelay = (i * 0.08) + "s";
+                element.appendChild(span);
+            });
+        }
+        document.querySelectorAll(".floating").forEach(floatText);
+
+        // Countdown Timer to February 27, 2026
+        const countDownDate = new Date("Feb 27, 2026 00:00:00").getTime();
+        
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = countDownDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days < 10 ? "0" + days : days;
+            document.getElementById("hours").innerHTML = hours < 10 ? "0" + hours : hours;
+            document.getElementById("minutes").innerHTML = minutes < 10 ? "0" + minutes : minutes;
+            document.getElementById("seconds").innerHTML = seconds < 10 ? "0" + seconds : seconds;
+
+            if (distance < 0) {
+                clearInterval(countdownInterval);
+                document.querySelector(".countdown").innerHTML = "EVENT STARTED";
+            }
+        }
+        
+        updateCountdown();
+        const countdownInterval = setInterval(updateCountdown, 1000);
+
+        // Loading Screen
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loading-screen').style.opacity = '0';
+                setTimeout(function() {
+                    document.getElementById('loading-screen').style.display = 'none';
+                }, 500);
+            }, 1000);
+        });
+
+        // Background video control
+        const bgVideo = document.getElementById('bg-video');
+        bgVideo.currentTime = 4;
+        bgVideo.addEventListener('timeupdate', function() {
+            if (bgVideo.currentTime >= 64) {
+                bgVideo.currentTime = 4;
+            }
+        });
+
+        // Sparkle effect for headings
+        document.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(heading => {
+            heading.addEventListener('mousemove', function(e) {
+                const sparkle = document.createElement('span');
+                sparkle.className = 'sparkle';
+                sparkle.style.left = e.offsetX + 'px';
+                sparkle.style.top = e.offsetY + 'px';
+                this.appendChild(sparkle);
+                setTimeout(() => sparkle.remove(), 1000);
+            });
+        });
+
+        // Sparkle effect for navbar links
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('mousemove', function(e) {
+                const sparkle = document.createElement('span');
+                sparkle.className = 'sparkle';
+                sparkle.style.left = e.offsetX + 'px';
+                sparkle.style.top = e.offsetY + 'px';
+                this.appendChild(sparkle);
+                setTimeout(() => sparkle.remove(), 1000);
+            });
+        });
+
+        // Color-changing bounce animation for all headings
+        function animateHeading(element) {
+            const text = element.innerText;
+            element.innerHTML = "";
+            text.split("").forEach((char, index) => {
+                const span = document.createElement("span");
+                span.innerText = char === " " ? "\u00A0" : char;
+                span.style.animationDelay = (index * 0.1) + "s";
+                span.classList.add('animated-heading-span');
+                if (element.classList.contains('galaxy-heading')) {
+                    span.classList.add('galaxy-heading');
+                }
+                element.appendChild(span);
+            });
+        }
+        document.querySelectorAll('.section-title, .main-title').forEach(animateHeading);
+    </script>
+
+</body>
+</html>
