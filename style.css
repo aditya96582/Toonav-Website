@@ -229,7 +229,21 @@ nav {
 .nav-logo {
     display: flex;
     align-items: center;
+    gap: 15px;
+}
+
+.nav-logo a {
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo .glb-logo {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
 }
 
 .nav-logo img {
@@ -463,6 +477,8 @@ nav {
     font-size: 1.2rem;
     line-height: 1.8;
     color: #FFD700;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
 .events {
