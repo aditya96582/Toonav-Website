@@ -218,13 +218,20 @@
 
     <script>
         function animateText(element) {
-            const text = element.innerText;
+            const html = element.innerHTML;
             element.innerHTML = "";
-            text.split("").forEach((char, index) => {
-                const span = document.createElement("span");
-                span.innerText = char === " " ? "\u00A0" : char;
-                span.style.animationDelay = index * 0.05 + "s";
-                element.appendChild(span);
+            let index = 0;
+            html.split(/<br\s*\/?>/i).forEach((line, lineIndex) => {
+                if (lineIndex > 0) {
+                    element.appendChild(document.createElement("br"));
+                }
+                line.split("").forEach((char) => {
+                    const span = document.createElement("span");
+                    span.innerText = char === " " ? "\u00A0" : char;
+                    span.style.animationDelay = index * 0.05 + "s";
+                    element.appendChild(span);
+                    index++;
+                });
             });
         }
         document.querySelectorAll("#welcome-text, #toonav-text").forEach(animateText);
